@@ -6,7 +6,11 @@ By inputting a command, you become immune to tear gas. Input another command to 
 
 ## Commands
 `/gasmask on`
+
 `/gasmask off`
+
+## Images
+
 
 ## Requirements
 https://github.com/sadboilogan/discord_perms
