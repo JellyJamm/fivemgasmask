@@ -1,6 +1,13 @@
 # FiveM Gask Mask Script
 a FiveM gas mask script with a Discord role permission system.
 
+## Description
+By inputting a command, you become immune to tear gas. Input another command to disable it.
+
+## Commands
+`/gasmask on`
+`/gasmask off`
+
 ## Requirements
 https://github.com/sadboilogan/discord_perms
 
