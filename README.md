@@ -3,6 +3,7 @@ a FiveM gas mask script with a Discord role permission system.
 
 ## Requirements
 https://github.com/sadboilogan/discord_perms
+
 **IMPORTANT NOTE:** Do not change the name of the resource. It must be named `dicord_perms`
 
 ## Installation
