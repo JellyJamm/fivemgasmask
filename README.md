@@ -5,7 +5,7 @@ a FiveM gas mask script with a Discord role permission system.
 By inputting a command, you become immune to tear gas. Input another command to disable it.
 
 ## Commands
-`/gasmask on` - takes on
+`/gasmask on` - puts on
 
 `/gasmask off` - takes off
 
