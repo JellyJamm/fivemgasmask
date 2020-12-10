@@ -1,15 +1,8 @@
 --================================--
---          GASMASK v1.0          --
+--          GASMASK v2.0          --
 --          by JellyJam           --
 --      License: GNU GPL 3.0      --
 --================================--
-
-
-rolelist = {
-	-- This is an example. Feel free to add a new line or edit the one below.
-	['Gas Mask Certified'] = 786364946824560670,
-}
-
 
 AddEventHandler('playerDropped', function (reason) 
   -- Clear their lists 
@@ -27,9 +20,9 @@ AddEventHandler('Gasmask:CheckPerms', function()
     if identifierDiscord then
         local roles = exports.discord_perms:GetRoles(src)
         if not (roles == false) then
-            for i = 1, #roles do
-                for roleName, roleID in pairs(rolelist) do
-                    if tonumber(roles[i]) == tonumber(roleID) then
+            for roleName, roleID in pairs(Config.rolelist) do
+                for i = 1, #roles do
+                    if tostring(roles[i]) == tostring(roleID) then
                         -- Return the index back to the Client script
                         TriggerClientEvent("Gasmask:CheckPerms:Return", src, true)
                         print(GetPlayerName(src) .. " is able to use Gasmask")
@@ -40,6 +33,6 @@ AddEventHandler('Gasmask:CheckPerms', function()
             print(GetPlayerName(src) .. " is not able to use Gasmask because missing role")
         end
     elseif identifierDiscord == nil then
-        print("Discord not Found")
+        print("Discord not found")
     end
 end)
