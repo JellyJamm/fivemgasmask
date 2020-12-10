@@ -12,6 +12,8 @@ By inputting a command, you become immune to tear gas. Input another command to 
 ## Images
 ![Equipped](https://cdn.discordapp.com/attachments/695031619819536565/786382849699741716/gasmask1.PNG)
 
+![Unequipped](https://cdn.discordapp.com/attachments/695031619819536565/786383093165850654/gasmask2.PNG)
+
 ## Requirements
 https://github.com/sadboilogan/discord_perms
 
