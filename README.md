@@ -1,13 +1,15 @@
-# FiveM Gask Mask Script
+# FiveM Gask Mask Script v2
 a FiveM gas mask script with a Discord role permission system.
 
 ## Description
 By inputting a command, you become immune to tear gas. Input another command to disable it.
 
 ## Commands
-`/gasmask on`
+`/gasmask on` - takes on
 
-`/gasmask off`
+`/gasmask off` - takes off
+
+`/gasmask` - toggles
 
 ## Images
 ![Equipped](https://cdn.discordapp.com/attachments/695031619819536565/786382849699741716/gasmask1.PNG)
@@ -27,11 +29,16 @@ https://github.com/sadboilogan/discord_perms
 ## Installation
 * Set up `discord_perms` (link above)
 * Drop the **fivemgasmask-master** folder in your resources directory
-* Open the `server.lua` file in **fivemgasmask-master** and input the roles you would like to give access to the gas mask
+* Open the `config.lua` file in **fivemgasmask-master** and input the roles you would like to give access to the gas mask
 * Add `start discord_perms` and `start fivemgasmask-master` in your **server.cfg**
 * Restart server
 
 **NOTE:** Make sure discord_perms is started ***before*** this script. 
+
+## Improvements in v2
+* Added config
+* If using a ped, equips an actual gas mask (configurable in the config.lua)
+* Given the option to toggle the gasmask opposed to using on and off 
 
 ## Contributions
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
