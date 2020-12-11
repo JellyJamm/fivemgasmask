@@ -50,4 +50,4 @@ https://docs.badger.store/fivem-discord-scripts/discordaceperms
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
-[GNU GPL 3.0](https://github.com/JellyJamm/disablecombatroll/blob/main/LICENSE)
+[GNU GPL 3.0](https://github.com/JellyJamm/fivemgasmask/blob/main/LICENSE)
