@@ -32,7 +32,7 @@ https://i.gyazo.com/03e2d847fcadf741a61db0f5d4dd0a60.mp4
 **IMPORTANT NOTE:** This script uses ace permissions. You **MUST** assign a group or steam identifier the `perms.gasmask` permission in order for this to work.
 
 ## Improvements in v2.5
-* Using ace_perms now. (Find older versions [here](https://github.com/JellyJamm/fivemgasmask/releases)
+* Using ace_perms now. (Find older versions [here)](https://github.com/JellyJamm/fivemgasmask/releases)
 * Inputting a command is no longer required. If you are wearing the config mask, the script activates.
 * Optional hud display
 
@@ -43,6 +43,7 @@ https://i.gyazo.com/03e2d847fcadf741a61db0f5d4dd0a60.mp4
 
 ## Recommended Script
 https://docs.badger.store/fivem-discord-scripts/discordaceperms
+
 *Ties Ace Perms to Roles in a Discord Server*
 
 ## Contributions
