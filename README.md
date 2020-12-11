@@ -1,5 +1,5 @@
 # FiveM Gask Mask Script v2.5
-a FiveM gas mask script with a Discord role permission system.
+a FiveM gas mask script using the ACE permission system.
 
 ## Description
 By wearing a gasmask (configurable in the config) you become immune to tear gas. 
